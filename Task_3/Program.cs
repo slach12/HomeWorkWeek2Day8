@@ -14,7 +14,7 @@
                 //Przyjąłem, że ciąg definiuje się od F1 = F2 = 1
                 double F1 = 1;
                 double F2 = 1;
-                double Fn, Fsum;
+                double Fn;
 
                 for (int i = 1; i <= fibElementsCount; i++)
                 {
