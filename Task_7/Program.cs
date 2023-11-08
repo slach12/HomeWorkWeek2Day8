@@ -8,7 +8,6 @@
             Console.Write("Podaj ilość elementów w przekątnej : ");
             int elementsCount, a, b;
             bool isCorectCount = int.TryParse(Console.ReadLine(), out elementsCount);
-            //isCorectCount &= (elementsCount % 2 == 1);
             isCorectCount &= (elementsCount > 0);
 
             if (isCorectCount)

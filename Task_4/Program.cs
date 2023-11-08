@@ -7,7 +7,7 @@
             Console.WriteLine("Task 4");
             Console.Write("Podaj ilość elementów w piramidzie : ");
             int elementsCount;
-            int number = 1;
+            int number = 0;
             bool isCorectCount = int.TryParse(Console.ReadLine(), out elementsCount);
             isCorectCount &= elementsCount > 0;
             if (isCorectCount)
@@ -16,13 +16,13 @@
                 {
                     for (int j = 0; j < i; j++)
                     {
+                        number++;
                         Console.Write(number + " ");
                         if (number == elementsCount)
                         {
                             break;
                         }
-                        number++;
-                    }
+                                           }
                     Console.WriteLine();
                     if (number == elementsCount)
                     {

@@ -15,9 +15,9 @@
                 double F1 = 1;
                 double F2 = 1;
                 double Fn;
-
                 for (int i = 1; i <= fibElementsCount; i++)
                 {
+                    
                     if (i == 1)
                     {
                         Console.WriteLine($"F{i} = {F1}");
